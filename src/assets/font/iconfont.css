@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('./iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-drag:before {
+  content: "\e769";
+}
+
+.icon-ellipsis-vertical:before {
+  content: "\e76a";
+}
+
+.icon-gallery-view:before {
+  content: "\e76b";
+}
+
+.icon-WIFI:before {
+  content: "\e76c";
+}
+
+.icon-bug-report:before {
+  content: "\e76d";
+}
+
+.icon-qrcode:before {
+  content: "\e76e";
+}
+
+.icon-scan:before {
+  content: "\e76f";
+}
+
+.icon-cut:before {
+  content: "\e770";
+}
+
+.icon-gift:before {
+  content: "\e771";
+}
+
+.icon-link:before {
+  content: "\e772";
+}
+
+.icon-poweroff:before {
+  content: "\e774";
+}
+
+.icon-key:before {
+  content: "\e775";
+}
+
+.icon-safety-certificate:before {
+  content: "\e776";
+}
+
+.icon-supervise:before {
+  content: "\e777";
+}
+
+.icon-tag-subscipt:before {
+  content: "\e78a";
+}
+
+.icon-chart-pie-alt:before {
+  content: "\e78c";
+}
+
+.icon-chart-relation:before {
+  content: "\e78d";
+}
+
+.icon-chart-scatter-plot:before {
+  content: "\e78e";
+}
+
+.icon-chart-area:before {
+  content: "\e78f";
+}
+
+.icon-chart-line:before {
+  content: "\e790";
+}
+
+.icon-chart-bar:before {
+  content: "\e791";
+}
+
+.icon-display-code:before {
+  content: "\e792";
+}
+
+.icon-display-arrow-right:before {
+  content: "\e793";
+}
+
+.icon-display-arrow-left:before {
+  content: "\e794";
+}
+
+.icon-laptop-error:before {
+  content: "\e795";
+}
+
+.icon-laptop-check:before {
+  content: "\e796";
+}
+
+.icon-laptop:before {
+  content: "\e797";
+}
+
+.icon-aliwangwang:before {
+  content: "\e79d";
+}
+
+.icon-nail:before {
+  content: "\e79e";
+}
+
+.icon-nail-fixed:before {
+  content: "\e79f";
+}
+
+.icon-edit:before {
+  content: "\e7a0";
+}
+
+.icon-dollar:before {
+  content: "\e7a1";
+}
+
+.icon-transanction:before {
+  content: "\e7a2";
+}
+
+.icon-paperplane-fill:before {
+  content: "\e7a9";
+}
+
+.icon-location-fill:before {
+  content: "\e7b0";
+}
+
+.icon-cry-fill:before {
+  content: "\e7b6";
+}
+
+.icon-smile-fill:before {
+  content: "\e7b7";
+}
+
+.icon-pausecircle-fill:before {
+  content: "\e7cb";
+}
+
+.icon-heart-fill:before {
+  content: "\e7d1";
+}
+
+.icon-question-circle-fill:before {
+  content: "\e7dd";
+}
+
+.icon-exclamationcircle-f:before {
+  content: "\e7de";
+}
+
+.icon-check-circle-fill:before {
+  content: "\e7e2";
+}
+
+.icon-compressalt-fill:before {
+  content: "\e7e3";
+}
+
+.icon-expandalt-fill:before {
+  content: "\e7e4";
+}
+

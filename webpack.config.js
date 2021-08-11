@@ -3,7 +3,7 @@
  * @Author: shiduobin
  * @Date: 2021-07-25 17:52:17
  * @LastEditors: shiduobin
- * @LastEditTime: 2021-07-26 16:42:57
+ * @LastEditTime: 2021-08-11 23:09:42
  */
 
 const path = require("path");
@@ -17,7 +17,7 @@ module.exports = {
     // 打包后文件的输出路径
     path: path.join(__dirname, "./build"),
     // 打包后文件的名称
-    filename: "build.js",
+    filename: "[name][hash].js",
   },
   // 打包模式
   mode: "development",
@@ -26,14 +26,34 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        // use:{
-        //   loader: "css-loader",
-        // }
         use: ["style-loader", "css-loader"],
       },
       {
         test: /\.less/,
-        use: ["style-loader", "css-loader", "less-loader"],
+        use: ["style-loader", "css-loader", "postcss-loader", "less-loader"],
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        use: {
+          loader: "url-loader",
+          options: {
+            name: "[name]_[hash:6].[ext]",
+            outputPath: "images/",
+            limit: 1024,
+          },
+        },
+      },
+      {
+        test: /\.(ttf|eot|svg|woff|woff2)$/,
+        use: {
+          loader: "url-loader",
+          options: {
+            name: "[name]_[hash:5].[ext]",
+            limit: 5000, // fonts file size <= 5KB, use 'base64'; else, output file
+            publicPath: "fonts/",
+            outputPath: "fonts/"
+          },
+        },
       },
     ],
   },
